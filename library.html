@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Library managemnt system</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="menu">
+        <h1 id="title">Library Mangement System</h1>
+        <p id="note">For your easiness</p>
+        <form method="post" action="data.php">
+            <fieldset>
+                <legend>Book Registration</legend>
+                <label for="id">Book id : <input type="text" id="id" name="id" placeholder="#23-001" required> </label>
+                <label for="name">Name of the book : <input type="text" id="name" name="name" placeholder="Secrets of tree" required> </label>
+                <label for="id">Author of the book : <input type="text" id="author" name="author" placeholder="JK Rowling" required> </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Book lending</legend>
+                <label for="idl">Book id : <input type="text" id="idl" name="idl" placeholder="#23-001" > </label>
+                <label for="idr">Reader id : <input type="text" id="idr" name="idr" placeholder="LB-001" > </label>
+                <label for="id">Due date : <input type="date" id="date" name="date" required> </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Please recheck all details before proceeding</legend>
+                <label id="save" for="save"><input type="submit" value="Save" name="save"></label>
+                <label id="update" for="update"><input type="submit" value="Update" name="update"></label>
+                <label id="delete" for="delete"><input type="submit" value="Delete" name="delete"></label>
+            </fieldset>
+
+
+
+
+        </form>
+        </div>
+
+
+    </body>
+
+</html>
